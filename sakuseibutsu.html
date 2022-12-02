@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+   
+    <link rel="stylesheet" href="sakuseibutsu.css">
+    <title>アラーム付きデジタル時計</title>
+</head>
+<body>
+    <section class="container">
+        <div id="clock"></div>
+        <div class="controls">
+            <button onclick="setAlarm()" class="button set-alarm">Alarm set</button>
+            <button onclick="clearAlarm()" class="button clear-alarm">Alarm off</button>
+        </div>
+        <div>
+        <input onchange="setAlarmTime(this.value)" name="alarmTime" type="datetime-local">
+        </div>
+        
+    </section>
+    <script src="sakuseibutsu.js"></script>
+</body>
+</html>

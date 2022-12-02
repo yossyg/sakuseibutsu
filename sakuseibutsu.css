@@ -1,0 +1,53 @@
+body,html {
+       background-image: url(sakuseibutsu.jpg);
+    background-size: cover;
+}
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#clock {
+    font-family: "century";
+    font-size: 12vw;
+    color: #a3f7d1;
+    text-shadow: 0 0 20px #0aafe6;
+    line-height: 1.2
+  
+}
+
+.controls {
+    margin-top: px;
+}
+
+.button {
+    display: inline-block;
+    text-decoration: none;
+    background: #dad6d6;
+    color: #FFF;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    border-radius: 50%;
+    text-align: center;
+    font-weight: bold;
+    overflow: hidden;
+    box-shadow: 0px 2px 2px rgba(241, 234, 234, 0.29);
+    border-bottom: solid 3px #111111;
+    transition: .4s;
+  }
+  
+.set-alarm {
+    background-color: #0cb96e;
+}
+
+.clear-alarm {
+    background-color: #bb0794;
+}
